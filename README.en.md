@@ -14,17 +14,17 @@ The pet pops a speech bubble and plays a per-source animation when a message arr
 
 WeChat / Feishu:
 
-![WeChat alert](docs/videos/wechat-alert.mp4) ![Feishu alert](docs/videos/feishu-alert.mp4)
+![WeChat alert](docs/videos/wechat-alert.gif) ![Feishu alert](docs/videos/feishu-alert.gif)
 
 Calendar agenda / DataGrip task:
 
-![Calendar alert](docs/videos/calendar-alert.mp4) ![DataGrip alert](docs/videos/datagrip-alert.mp4)
+![Calendar alert](docs/videos/calendar-alert.gif) ![DataGrip alert](docs/videos/datagrip-alert.gif)
 
 ### Idle animations
 
-When no messages arrive for a while, the pet rotates through idle animations:
+When no messages arrive for a while, the pet rotates through idle animations (standing / cuddle / life & death):
 
-![Idle standing](docs/videos/idle-standing.mp4) ![Idle cuddle](docs/videos/idle-cuddle.mp4) ![Idle life-death burst](docs/videos/idle-life-death-burst.mp4)
+![Idle standing](docs/videos/idle-standing.gif) ![Idle cuddle](docs/videos/idle-cuddle.gif) ![Idle life-death burst](docs/videos/idle-life-death-burst.gif)
 
 ## Features
 
