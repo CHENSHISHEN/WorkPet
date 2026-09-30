@@ -12,21 +12,19 @@ WorkPet is a native macOS desktop pet that doubles as a work-notification hub. I
 
 The pet pops a speech bubble and plays a per-source animation when a message arrives:
 
-| WeChat | Feishu |
-|---|---|
-| ![WeChat alert](docs/videos/wechat-alert.mp4) | ![Feishu alert](docs/videos/feishu-alert.mp4) |
+WeChat / Feishu:
 
-| Calendar agenda | DataGrip task |
-|---|---|
-| ![Calendar alert](docs/videos/calendar-alert.mp4) | ![DataGrip alert](docs/videos/datagrip-alert.mp4) |
+![WeChat alert](docs/videos/wechat-alert.mp4) ![Feishu alert](docs/videos/feishu-alert.mp4)
+
+Calendar agenda / DataGrip task:
+
+![Calendar alert](docs/videos/calendar-alert.mp4) ![DataGrip alert](docs/videos/datagrip-alert.mp4)
 
 ### Idle animations
 
 When no messages arrive for a while, the pet rotates through idle animations:
 
-| Standing | Cuddle | Life & death |
-|---|---|---|
-| ![Idle standing](docs/videos/idle-standing.mp4) | ![Idle cuddle](docs/videos/idle-cuddle.mp4) | ![Idle life-death burst](docs/videos/idle-life-death-burst.mp4) |
+![Idle standing](docs/videos/idle-standing.mp4) ![Idle cuddle](docs/videos/idle-cuddle.mp4) ![Idle life-death burst](docs/videos/idle-life-death-burst.mp4)
 
 ## Features
 

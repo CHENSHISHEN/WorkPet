@@ -12,21 +12,21 @@ WorkPet 是一个原生 macOS 桌面电子宠物工作通知中枢。它的目�
 
 收到不同来源的消息，宠物会弹出气泡并播放对应的专属动画：
 
-| 微信消息 | 飞书消息 |
-|---|---|
-| ![微信消息提醒](docs/videos/wechat-alert.mp4) | ![飞书消息提醒](docs/videos/feishu-alert.mp4) |
+微信消息 / 飞书消息：
 
-| 日历行程 | DataGrip 任务 |
-|---|---|
-| ![日历行程提醒](docs/videos/calendar-alert.mp4) | ![DataGrip 任务提醒](docs/videos/datagrip-alert.mp4) |
+![微信消息提醒](docs/videos/wechat-alert.mp4) ![飞书消息提醒](docs/videos/feishu-alert.mp4)
+
+日历行程 / DataGrip 任务：
+
+![日历行程提醒](docs/videos/calendar-alert.mp4) ![DataGrip 任务提醒](docs/videos/datagrip-alert.mp4)
 
 ### 待机动画
 
 长时间没有消息时，宠物会在多组待机动画间轮换：
 
-| 待机1 | 待机2 | 待机3 |
-|---|---|---|
-| ![待机-站立](docs/videos/idle-standing.mp4) | ![待机-依偎](docs/videos/idle-cuddle.mp4) | ![待机-生死意境](docs/videos/idle-life-death-burst.mp4) |
+待机 · 站立 / 依偎 / 生死意境：
+
+![待机-站立](docs/videos/idle-standing.mp4) ![待机-依偎](docs/videos/idle-cuddle.mp4) ![待机-生死意境](docs/videos/idle-life-death-burst.mp4)
 
 ## 当前能力
 
