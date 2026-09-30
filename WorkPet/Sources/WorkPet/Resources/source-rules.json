@@ -1,0 +1,119 @@
+{
+  "defaultLevel": "normal",
+  "sources": [
+    {
+      "bundleIdentifier": "com.apple.Calendar",
+      "level": "strong"
+    },
+    {
+      "bundleIdentifier": "com.jetbrains.datagrip",
+      "level": "strong"
+    },
+    {
+      "bundleIdentifier": "com.tencent.xinWeChat",
+      "level": "normal"
+    },
+    {
+      "bundleIdentifier": "com.tencent.flue.WeChatAppEx",
+      "level": "normal"
+    },
+    {
+      "bundleIdentifier": "com.electron.lark",
+      "level": "normal"
+    },
+    {
+      "bundleIdentifier": "com.electron.lark-notifier",
+      "level": "normal"
+    },
+    {
+      "bundleIdentifier": "com.bytedance.lark",
+      "level": "normal"
+    },
+    {
+      "bundleIdentifier": "dev.workpet.app",
+      "level": "normal"
+    }
+  ],
+  "messageApps": [
+    {
+      "id": "wechat",
+      "displayName": "微信",
+      "bundleIdentifiers": [
+        "com.tencent.xinWeChat",
+        "com.tencent.xinWeChat64",
+        "com.tencent.flue.WeChatAppEx",
+        "com.tencent.xinWeChat.WeChatMacShare"
+      ],
+      "defaultLevel": "silent",
+      "categories": {
+        "direct": "normal",
+        "group": "silent",
+        "official": "silent",
+        "system": "silent",
+        "unknown": "silent"
+      },
+      "whitelist": [
+        {
+          "category": "direct",
+          "senderContains": ["老板", "领导", "家人"],
+          "level": "strong"
+        },
+        {
+          "senderContains": ["重要客户群", "线上故障群"],
+          "level": "strong"
+        },
+        {
+          "contains": ["紧急", "故障", "线上", "@我"],
+          "level": "strong"
+        }
+      ],
+      "blacklist": [
+        {
+          "category": "official",
+          "level": "silent"
+        },
+        {
+          "senderContains": ["订阅号", "服务号", "广告"],
+          "level": "silent"
+        },
+        {
+          "contains": ["优惠券", "秒杀", "促销", "直播"],
+          "level": "silent"
+        }
+      ]
+    },
+    {
+      "id": "feishu",
+      "displayName": "飞书",
+      "bundleIdentifiers": [
+        "com.bytedance.lark",
+        "com.electron.lark",
+        "com.electron.lark-notifier"
+      ],
+      "defaultLevel": "normal",
+      "categories": {
+        "direct": "normal",
+        "group": "silent",
+        "official": "silent",
+        "system": "normal",
+        "unknown": "silent"
+      },
+      "whitelist": [
+        {
+          "contains": ["@我", "紧急", "故障", "上线", "发布失败"],
+          "level": "strong"
+        },
+        {
+          "senderContains": ["老板", "领导", "项目群", "生产故障"],
+          "level": "strong"
+        }
+      ],
+      "blacklist": [
+        {
+          "contains": ["机器人日报", "周报提醒", "订阅"],
+          "level": "silent"
+        }
+      ]
+    }
+  ]
+}

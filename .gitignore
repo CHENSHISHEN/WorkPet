@@ -1,0 +1,42 @@
+.DS_Store
+.build/
+build/
+datagrip-plugin/build/
+.swiftpm/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+.superpowers/
+
+# Local planning and assistant configuration
+.planning/
+.claude/
+docs/superpowers/
+
+# Local runtime and build state
+*.log
+*.pid
+*.db
+*.sqlite
+*.sqlite3
+
+# Credentials and signing material
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.cer
+*.crt
+
+# Development-only source media; runtime uses extracted frames
+**/source-videos/
+
+# IDE local config
+.idea/
+.vscode/
+
+# Debug symbols
+*.dSYM

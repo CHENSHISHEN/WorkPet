@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>dev.workpet.datagrip</id>
+  <name>WorkPet DataGrip Notifier</name>
+  <version>0.1.0</version>
+  <vendor>chen</vendor>
+
+  <description>
+    Sends DataGrip database session completion events to WorkPet.
+  </description>
+
+  <idea-version since-build="252" until-build="252.*" />
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.database</depends>
+
+  <projectListeners>
+    <listener
+      topic="com.intellij.database.console.session.DatabaseSessionStateListener"
+      class="dev.workpet.datagrip.WorkPetDatabaseSessionListener" />
+  </projectListeners>
+</idea-plugin>
+

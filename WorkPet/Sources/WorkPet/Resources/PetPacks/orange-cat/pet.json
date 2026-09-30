@@ -1,0 +1,59 @@
+{
+  "id": "orange-cat",
+  "name": "橘猫 Pro",
+  "version": "0.1.0",
+  "author": "WorkPet",
+  "size": {
+    "width": 148,
+    "height": 148
+  },
+  "states": {
+    "idle": {
+      "frames": ["idle-1.png", "idle-2.png"],
+      "frameDuration": 0.45
+    },
+    "breathing": {
+      "frames": ["idle-1.png", "idle-2.png"],
+      "frameDuration": 0.45
+    },
+    "curious": {
+      "image": "curious.png"
+    },
+    "waving": {
+      "frames": ["curious.png", "happy.png"],
+      "frameDuration": 0.18
+    },
+    "excited": {
+      "image": "alert.png"
+    },
+    "bouncing": {
+      "frames": ["alert.png", "happy.png", "alert.png"],
+      "frameDuration": 0.14
+    },
+    "happy": {
+      "image": "happy.png"
+    },
+    "love": {
+      "image": "love.png"
+    },
+    "squishing": {
+      "image": "squish.png"
+    },
+    "sleepy": {
+      "image": "sleep.png"
+    },
+    "sleeping": {
+      "image": "sleep.png"
+    },
+    "focused": {
+      "image": "focused.png"
+    },
+    "startled": {
+      "image": "alert.png"
+    },
+    "default": {
+      "image": "idle-1.png"
+    }
+  }
+}
+
